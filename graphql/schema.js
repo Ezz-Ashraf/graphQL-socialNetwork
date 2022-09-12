@@ -29,10 +29,16 @@ module.exports = buildSchema(`
 
 
    type RootMutation {
-    createUser(userInput:userInputData)
+    createUser(userInput : userInputData):User
    }
 
+   type RootQuery {
+    hello :String
+}
+
+
     schema {
+        query : RootQuery
         mutation : RootMutation
     }
 
