@@ -1,0 +1,6 @@
+1-Query Types:
+Query => GET
+mutation =>Manipulate("put,post,patch,delete")
+subscription => set up a real time connection
+
+2-Resolvers are controllers
